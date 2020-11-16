@@ -1,7 +1,7 @@
 require('dotenv').config();
 var axios = require('axios');
 
-const shotstackUrl = process.env.SHOTSTACK_HOST;
+const shotstackUrl = 'https://api.shotstack.io/v1/';
 const shotstackApiKey = process.env.SHOTSTACK_API_KEY;
 
 var json = require('./watermark.json');
